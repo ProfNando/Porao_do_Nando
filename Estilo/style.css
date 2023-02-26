@@ -22,8 +22,11 @@ body{
     font-size: 70px;
     font-weight: bolder;
 }
+nav{
+    margin: 25px;
+}
 ul{
-    margin: 20px 20px 0 0 ;
+    margin: 20px 20px 0 10px ;
     text-align: right;
     right: 15px;
 }
@@ -31,8 +34,8 @@ ul{
 .btn_sup{
     
     list-style: none;
-    margin: 10px;
-    padding: 10px 15px ;
+    margin: 25px 0 0 10px;
+    padding: 10px 15px  ;
     background-color: blueviolet;
     border: 1px solid rgb(226, 43, 217);
     display: inline;
@@ -40,4 +43,31 @@ ul{
     text-align: center;
     user-select: none;
     cursor: pointer;
+}
+hr{
+    padding:3px;
+    margin-top: 5px;
+    background-color: rgba(128, 128, 128, 0.575);
+    width: 75%;
+    border-style: none;
+    
+}
+#intro{
+    height: 300px;
+    background: blue;
+}
+
+.foto{
+    width: 200px;
+    height: 280px ;
+    color: chocolate;
+    margin: auto;
+    border: 2px;
+    z-index: -1;
+}
+.apresent{
+    width: 70%;
+    height: 80%;
+    color: brown;
+    border: 2px;
 }
